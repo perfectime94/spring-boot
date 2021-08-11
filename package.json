@@ -1,0 +1,28 @@
+{
+  "name": "springboot-thymeleaf-live-reload",
+  "scripts": {
+    "watch": "gulp watch",
+    "build": "gulp build",
+    "build-prod": "gulp build --env production"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@tailwindcss/forms": "^0.3.3",
+    "@tailwindcss/typography": "^0.4.1",
+    "browser-sync": "^2.27.5",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-environments": "^1.0.1",
+    "gulp-postcss": "^9.0.0",
+    "gulp-purgecss": "^4.0.3",
+    "gulp-terser": "^2.0.1",
+    "gulp-uglifycss": "^1.1.0",
+    "gulp-watch": "^4.0.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "tailwindcss": "^2.2.7",
+    "tailwindcss-elevation": "^1.0.1"
+  }
+}
